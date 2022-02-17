@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/toast": "^3.3.1",
+    "@picocss/pico": "^1.4.4",
+    "nanoid": "^3.3.1",
+    "nuxt": "^2.15.8"
+  },
+  "name": "modules-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app1:dev": "nuxt dev app1",
+    "app2:dev": "nuxt dev app2",
+    "dev": "concurrently \"yarn app1:dev\"  \"yarn app2:dev\" "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
